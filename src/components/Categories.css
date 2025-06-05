@@ -1,0 +1,21 @@
+.category-card {
+    
+    width: 100%;
+    max-width: 150px;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  .category-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  
+  .category-desc {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  

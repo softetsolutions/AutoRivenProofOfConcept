@@ -1,0 +1,10 @@
+#trusted{
+    min-height: 50vh;
+    min-width: 100vw;
+}
+.trusted-letter{
+    color: blue;
+}
+.logos{
+    width: 50%;
+}

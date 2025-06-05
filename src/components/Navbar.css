@@ -1,0 +1,132 @@
+.custom-navbar{
+  
+  min-height: 28vh;
+  
+}
+.Mainlogo {
+width: 215px;
+height: 65px;
+margin-left: 90px;
+margin-right: 2px;
+}
+.navSearch-box {
+border: 1px solid  rgba(255, 255, 255, 1);
+width: 341px;
+height: 62px;
+border-radius: 20px;
+
+margin-left: 31px;
+margin-right: 2px;
+}
+.navSearch {
+  border: 0;
+color:  rgba(255, 255, 255, 1);
+width: 285px;
+height: 50px;
+background-color: rgba(31, 41, 55, 1);
+margin-left: 25px;
+margin-right: 2px;
+
+}::placeholder{
+  color:  rgba(255, 255, 255, 1);
+  font: inter;
+}
+
+.navSearch-button{
+  width:20%;
+  height: 20%;
+  margin-left: 80px;
+
+}
+.cart .heart{
+  width:20%;
+  height: 20%;
+ margin-left: 2px;
+ margin-right: 2px;
+  color: white;
+}
+.navbar-icons{
+ margin-left: 2px;
+ margin-right: 2px;
+     
+}
+.cart-box{
+margin-left: 2px;
+margin-right: 2px;
+color: white;
+}
+.heart-box{
+margin-left: 2px;
+margin-right: 2px;
+color: white;
+}
+.login-box{
+margin-left: 2px;
+margin-right: 2px;
+color: white;
+}
+.contact{
+margin-left: 110px;
+margin-right: 2px;
+color: white;
+}
+.home{
+margin-left: 2px;
+margin-right: 2px;
+color: white;
+}
+.aboutus{
+margin-left: 2px;
+margin-right: 2px;
+color: white;
+}
+.shop{
+margin-left: 2px;
+margin-right: 2px;
+color: white;
+}
+.contactus{
+margin-left: 2px;
+margin-right: 2px;
+color: white;
+}
+.language{
+margin-left: 2px;
+margin-right: 2px;
+border: 1px solid white;
+border-radius: 30px; 
+background-color: rgba(31, 41, 55, 1);
+}
+.main-dropdown{
+
+border-radius: 30px; 
+
+}
+.flag-image{
+border-radius: 30px; 
+border: 1px solid white;
+width:20%;
+height: 20%;
+}
+.flag-image {
+border-radius: 50%;       
+width: 24px;              
+height: 24px;
+object-fit: cover;
+border: 1px solid white;
+}
+.brand{
+  width: 100%;
+  margin-left: 2px;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 11.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  justify-items: center;
+}

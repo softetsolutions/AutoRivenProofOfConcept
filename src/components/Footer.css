@@ -1,0 +1,101 @@
+.custom-footer {
+    background-color: #1c2431;
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+   
+  }
+  .footer-container{
+    margin-left: 30px;
+    width: 95%;
+  }
+  .footer-top h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .footer-top ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-top ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-top ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-logo {
+    max-width: 285px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-top input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-top button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3366ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer-top button:hover {
+    background-color: #1c44d4;
+  }
+  
+  .payment-icons img {
+    width: 40px;
+    margin: 5px;
+   
+  }
+  
+  .payment-icons img:hover {
+    filter: none;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .footer-legal p {
+    font-size: 14px;
+    margin: 10px 0 5px;
+  }
+  
+  .footer-legal a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-legal a:hover {
+    color: #fff;
+  }
+  .payopt{
+    margin: 2px;
+  }
+  .connect{
+    margin: 0px;
+    padding: 0px;
+  }
+  .border{
+    border: 2px solid white;
+    width: 95%;
+    height: 0%;
+  }

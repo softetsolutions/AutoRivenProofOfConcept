@@ -1,0 +1,34 @@
+.testimonial-card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    max-width: 500px;
+    text-align: left;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .testimonial-card h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .testimonial-text {
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .star-rating {
+    color: #FFD700; /* Gold */
+    font-size: 1.2rem;
+  }
+  
+  .star {
+    margin-right: 3px;
+    color: #ccc; /* Gray for unfilled */
+  }
+  
+  .star.filled {
+    color: #FFD700;
+  }
+  
