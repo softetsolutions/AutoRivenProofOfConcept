@@ -130,3 +130,60 @@ border: 1px solid white;
   background-size: 100%;
   justify-items: center;
 }
+.modal-side {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 0;
+  height: 100vh;
+  width: 380px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-out;
+  border: none;
+}
+
+.modal.show .modal-side {
+  transform: translateX(0%);
+}
+.modal-button{
+  width :70%;
+  margin: 2px;
+}
+@media (max-width: 768px) {
+  .box-logo {
+    width: 28%; /* Shrink to 80% width */
+    margin-left: 0 auto; /* Center horizontally */
+    
+  }
+  .brand{
+    width: 100%;
+    display: block;
+  }
+ 
+  .box-img{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .box-search{
+    width: 57%;
+    display: block;
+    margin-left: 0px;
+    justify-self: center;
+  }
+.box-input{
+  display: block;
+  width: 95%;
+  margin-left: 0px;
+}
+  .box-button{
+    display: block;
+    width: 15%;
+  }
+  .contact{
+    margin-left: 2px;
+  }
+  .drop{
+    width: 20%;
+  }
+
+}

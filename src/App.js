@@ -1,3 +1,6 @@
+HEAD
+// src/App.js
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -12,6 +15,7 @@ import Footer from './components/Footer';
 import Categories from './components/Categories';
 import Payment from './components/Payment';
 import Brand from './components/Brand';
+
 function App() {
   return (
     <>
