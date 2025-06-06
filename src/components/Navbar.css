@@ -179,12 +179,13 @@ border: 1px solid white;
    margin-left: 60px;
    margin-right: 1px;
     width: 27%;
+    text-align: right;
   }
   .contact{
     margin-left: 2px;
   }
   .drop{
-    width: 26%;
+    width: 30%;
   }
   .box-glass{
     width: 30%;
@@ -194,4 +195,10 @@ border: 1px solid white;
     width: 100%;
   }
 
+}
+input:focus,
+input:hover {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
 }

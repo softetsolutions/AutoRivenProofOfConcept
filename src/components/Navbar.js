@@ -53,7 +53,7 @@ export default function CustomNavbar() {
                 </a>
               </Col>
               {isSmallScreen && (
-                <Col md={4} className="box-button">
+                <Col md={5} className="box-button">
                   <Button
                     variant="outline-light modal-button"
                     onClick={handleToggle}

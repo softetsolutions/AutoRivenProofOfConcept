@@ -17,7 +17,7 @@ export default function Hero() {
             fontSize: "20px",
             position: "absolute",
             top: "430px",
-            left: "35px",
+            left: "30px",
           }}
         ></i>
 
@@ -28,7 +28,7 @@ export default function Hero() {
             fontSize: "20px",
             position: "absolute",
             top: "482px",
-            left: "35px",
+            left: "30px",
           }}
         ></i>
 
@@ -39,7 +39,7 @@ export default function Hero() {
             fontSize: "20px",
             position: "absolute",
             top: "530px",
-            left: "35px",
+            left: "30px",
           }}
         ></i>
         <div className="lowerline"></div>
