@@ -35,7 +35,7 @@ margin-right: 2px;
 .navSearch-button{
   width:20%;
   height: 20%;
-  margin-left: 80px;
+  
 
 }
 .cart .heart{
@@ -146,12 +146,12 @@ border: 1px solid white;
   transform: translateX(0%);
 }
 .modal-button{
-  width :70%;
-  margin: 2px;
+  width :55%;
+  margin: 10px;
 }
 @media (max-width: 768px) {
   .box-logo {
-    width: 28%; /* Shrink to 80% width */
+    width: 50%; /* Shrink to 80% width */
     margin-left: 0 auto; /* Center horizontally */
     
   }
@@ -165,25 +165,33 @@ border: 1px solid white;
     margin-left: 0px;
   }
   .box-search{
-    width: 57%;
+    width: 100%;
     display: block;
     margin-left: 0px;
     justify-self: center;
   }
 .box-input{
   display: block;
-  width: 95%;
+  width: 60%;
   margin-left: 0px;
 }
   .box-button{
-    display: block;
-    width: 15%;
+   margin-left: 60px;
+   margin-right: 1px;
+    width: 27%;
   }
   .contact{
     margin-left: 2px;
   }
   .drop{
-    width: 20%;
+    width: 26%;
+  }
+  .box-glass{
+    width: 30%;
+    display: block;
+  }
+  .navSearch{
+    width: 100%;
   }
 
 }

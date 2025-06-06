@@ -52,22 +52,8 @@ export default function CustomNavbar() {
                   />
                 </a>
               </Col>
-
-              <Col md={4} className="box-search">
-                <div className="navSearch-box d-flex align-items-center box-input ">
-                  <input
-                    type="text"
-                    placeholder="Search by OEM code"
-                    className="navSearch "
-                  />
-                  {!isSmallScreen && (
-                    <i className="bi bi-search navSearch-button text-white "></i>
-                  )}
-                </div>
-              </Col>
-
               {isSmallScreen && (
-                <Col md={1} className="box-button">
+                <Col md={4} className="box-button">
                   <Button
                     variant="outline-light modal-button"
                     onClick={handleToggle}
@@ -76,6 +62,23 @@ export default function CustomNavbar() {
                   </Button>
                 </Col>
               )}
+
+              <Col md={4} className="box-search">
+                <div className="navSearch-box d-flex align-items-center box-input ">
+                  <input
+                    type="text"
+                    placeholder="Search by OEM code"
+                    className="navSearch "
+                  />
+                
+                  <Col md={4} className="box-glass">
+                    <i className="bi bi-search navSearch-button text-white "></i>
+                    </Col>
+             
+                </div>
+              </Col>
+
+           
 
               {!isSmallScreen && (
                 <Col
